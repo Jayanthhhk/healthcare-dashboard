@@ -1,0 +1,56 @@
+.calendar-view {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 18px;
+  flex: 1.2;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.calendar-header {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+.calendar-grid {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.calendar-day {
+  background: #f6f8fc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 44px;
+  font-size: 0.95rem;
+  color: #222;
+}
+.calendar-appointment {
+  font-size: 0.85rem;
+  color: #3DD598;
+  margin-top: 4px;
+}
+.calendar-appointments-list {
+  margin-top: 8px;
+  display: flex;
+  gap: 12px;
+}
+.calendar-card {
+  background: #f6f8fc;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  min-width: 130px;
+  font-weight: 500;
+}
+.calendar-card.dentist {
+  border-left: 4px solid #FF647C;
+}
+.calendar-card.physio {
+  border-left: 4px solid #3DD598;
+}

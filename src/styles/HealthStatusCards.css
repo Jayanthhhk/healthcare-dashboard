@@ -1,0 +1,29 @@
+.health-status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 220px;
+}
+.health-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 4px solid #3DD598;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.card-date {
+  color: #888;
+  font-size: 0.9rem;
+}
+.card-status {
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 1rem;
+}

@@ -1,0 +1,16 @@
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+.dashboard-bottom {
+  display: flex;
+  gap: 24px;
+}
+@media (max-width: 1100px) {
+  .dashboard-bottom {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

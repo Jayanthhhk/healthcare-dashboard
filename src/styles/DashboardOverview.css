@@ -1,0 +1,10 @@
+.dashboard-overview {
+  display: flex;
+  gap: 24px;
+}
+@media (max-width: 900px) {
+  .dashboard-overview {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

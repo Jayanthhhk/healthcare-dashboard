@@ -1,0 +1,26 @@
+.upcoming-schedule {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 18px;
+  flex: 1;
+  min-width: 220px;
+}
+.upcoming-schedule h3 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.schedule-day {
+  margin-bottom: 14px;
+}
+.schedule-day-title {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 6px;
+}
+.schedule-appointments {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
