@@ -6,7 +6,6 @@ function AnatomySection() {
   return (
     <div className="anatomy-section">
       <img src="/anatomy.png" alt="Human Anatomy" className="anatomy-img" />
-      {/* Overlay indicators as in the screenshot */}
       {anatomyIndicators.map((item, idx) => (
         <div
           key={item.part}
