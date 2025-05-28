@@ -3,7 +3,6 @@ import { calendarAppointments } from "../data/appointments";
 import "../styles/CalendarView.css";
 
 function CalendarView() {
-  // Render static calendar grid and appointment cards as in screenshot
   return (
     <div className="calendar-view">
       <div className="calendar-header">
